@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "start": "serve -p 8080",
+    "build": "node-sass sass -o css --source-map=true --output-style compressed"
+  },
+  "dependencies": {
+    "node-sass": "^4.14.1",
+    "serve": "^11.3.2"
+  }
+}
